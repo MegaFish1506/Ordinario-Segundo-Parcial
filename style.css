@@ -1,8 +1,47 @@
+.formulario {
+    background-color: aliceblue;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
 .body {
-    background-color: beige;
-    
+    font-family: Arial, sans-serif;
+    background:#ffffff;
+    margin:0;
 }
 
 .menu {
-    background-color: aqua;
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding:0;
+    margin:20px;
+    background-color: orange;
+}
+
+.fila {
+    margin:15px 0;
+}
+
+.fila label {
+    display:inline-block;
+    width:100px;
+    font-weight:bold;
+    color:#0046a8;
+}
+
+.fila input {
+    width:250px;
+    padding:8px;
+}
+
+.btn {
+    width:100px;
+    height:20px;
+    font-size:15px;
+    border:none;
+    background: rgb(rgb(5, 147, 199);
+    cursor:pointer;
 }
